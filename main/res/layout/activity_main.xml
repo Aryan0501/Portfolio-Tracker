@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6078ff"
+    android:backgroundTint="#00F3E6E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Portfoliotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="143dp"
+        android:text="Portfolio Tracker"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/assetsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addAssetsButton" />
+
+    <Button
+        android:id="@+id/addAssetsButton"
+        android:layout_width="131dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="68dp"
+        android:background="#00BCD4"
+        android:text="Add Assets"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/marketButton"
+        android:layout_width="123dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="88dp"
+        android:background="#00BCD4"
+        android:text="Market"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/assetsButton"
+        android:layout_width="123dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="284dp"
+        android:background="#00BCD4"
+        android:text="ASSETS"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
